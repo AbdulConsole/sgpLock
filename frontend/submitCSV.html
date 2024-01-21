@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Upload</title>
+</head>
+<body>
+    <form action="process.php" method="post" enctype="multipart/form-data">
+        <label for="file1">CSV File 1:</label>
+        <input type="file" name="file1" accept=".csv" required>
+        <!-- Repeat for other files -->
+        <button type="submit">Upload and Process</button>
+    </form>
+</body>
+</html>
