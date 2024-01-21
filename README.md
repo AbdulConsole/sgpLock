@@ -1,1 +1,3 @@
 # sgpLock
+
+A result generator 
